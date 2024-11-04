@@ -1,9 +1,20 @@
 # URL Shortening Service Interface Testing
 
-## Introduction
+### Introduction
 Ditto originated from a scientific research project whose goal was to analyze the security of dedicated URL shortening services. It is being open-sourced to promote the health of the security community and to build more secure short-link services. 
->Disclaimer: All use of Ditto for malicious activities is prohibited.
 
+### Publication
+*Misdirection of Trust: Demystifying the Abuse of Dedicated URL Shortening Service*
+
+*Zhibo Zhang, Lei Zhang, Zhangyue Zhang, Geng Hong, Yuan Zhang, Min Yang*
+
+*Network and Distributed System Security (NDSS) Symposium 2025*
+
+If you use Ditto or some of our code logic, or some of the interesting cases found by Ditto, please cite our paper as follows:
+```
+To be presented soon
+```
+>Disclaimer: All use of Ditto for malicious activities is prohibited.
 
 ## Project Structure
 Overarching Goal
@@ -85,4 +96,4 @@ This repository contain the following modules:
 
 ## Project Dependencies
 
-This project relies on several open source projects, including Soot (4.6.0), TextExerciser, and Frida. To run Ditto, configure and build the code according to the corresponding project requirements.
+This project relies on several open source projects, including Soot (4.6.0), [TextExerciser](https://textexerciser.github.io/TextExerciser/), and Frida. To run Ditto, configure and build the code according to the corresponding project requirements.
